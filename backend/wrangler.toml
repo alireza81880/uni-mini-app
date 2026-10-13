@@ -1,0 +1,15 @@
+name = "uni-class-bot"
+main = "src/index.ts"
+compatibility_date = "2023-12-01"
+
+# اتصال به دیتابیس D1
+[[d1_databases]]
+binding = "DB" # این نام در کد TS استفاده می‌شود
+database_name = "uni_db"
+database_id = "bb7dc1e7-9a67-45d9-9205-68ce4a559eee"
+
+[vars]
+# جایگزین کنید: توکن ربات از BotFather
+BOT_TOKEN = "8984274850:AAGCYsht32zGCybkFyvF6SMMKrRBqkgZ8HI"
+# جایگزین کنید: آیدی عددی اکانت تلگرام خودتان برای دسترسی ادمین
+ADMIN_UID = "6262690727"
